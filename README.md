@@ -15,7 +15,7 @@ https://user-images.githubusercontent.com/46512429/206826980-dd02de71-338a-4846-
 value between 10 and -10 is then added to that positon and sent to the robot as a goal pose. This 
 makes the robot drive around the area randomly.
 
-### Video
+### Video (5x Speed)
 
 https://user-images.githubusercontent.com/46512429/206827010-58f4429a-410d-43fb-beea-8e5912d93229.mp4
 
