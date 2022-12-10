@@ -12,7 +12,8 @@ setup(
         ('share/' + package_name, ['package.xml',
                                    'config/nav2_params.yaml',
                                    'config/nubot_nav_urdf.rviz',
-                                   'launch/manual_explore.launch.xml']),
+                                   'launch/manual_explore.launch.xml',
+                                   'launch/explore.launch.xml']),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -22,7 +23,7 @@ setup(
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [
+        'console_scripts': ['explore = nubot_nav.explore:main'
         ],
     },
 )
