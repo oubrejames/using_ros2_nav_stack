@@ -1,5 +1,8 @@
-# ME495 Embedded Systems Homework 4
+# Learning ROS2 navstack 
 Author: James Oubre
+### Description
+Used ROS2 navigation package to have a differential drive robot explore and map a small room.
+
 ## For manual operation:
 * Use `ros2 launch nubot_nav manual_explore.launch.xml ` to open the simulation and have the robot spawn in Gazebo
 * In a separate terminal, run `ros2 run teleop_twist_keyboard teleop_twist_keyboard` and drive the robot around to create a map
@@ -22,6 +25,3 @@ https://user-images.githubusercontent.com/46512429/206827010-58f4429a-410d-43fb-
 ### Map
 
 ![Screenshot from 2022-12-09 21-26-54](https://user-images.githubusercontent.com/46512429/206826951-90d4092e-48d3-457e-a54d-187642271e41.png)
-
-### People I worked with:
-Worked With: Liz Metzger, Dilan Wijesinghe, Meg Sindelar, Marno Nel, Katie Hughes, Ava Zahedi , Rintaroh Shima, Nicolas Morales
